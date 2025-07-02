@@ -1,0 +1,45 @@
+.book-card {
+  background: #fff8ed;
+  border: 1px solid #d2b48c;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.book-card-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.view-button, .cart-button {
+  background-color: #8d6e63;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.view-button:hover, .cart-button:hover {
+  background-color: #6d4c41;
+}
+

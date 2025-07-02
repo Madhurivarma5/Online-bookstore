@@ -1,0 +1,28 @@
+/* Checkout.css */
+.checkout-page {
+  padding: 30px;
+  background-color: #fdf6f0;
+  font-family: 'Georgia', serif;
+  color: #4b3f36;
+}
+
+.checkout-page h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+.checkout-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.checkout-page li {
+  border-bottom: 1px solid #d8c6b9;
+  padding: 10px 0;
+}
+
+.checkout-page p strong {
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 20px;
+}

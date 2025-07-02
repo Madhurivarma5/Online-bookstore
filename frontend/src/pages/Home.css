@@ -1,0 +1,47 @@
+/* Home.css */
+.home {
+  padding: 30px;
+  font-family: 'Georgia', serif;
+  background-color: #fdf6f0;
+  color: #4b3f36;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #3e2f24;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select,
+.filters button {
+  padding: 8px 12px;
+  border: 1px solid #c7b6a6;
+  border-radius: 5px;
+  background-color: #fff8f2;
+  color: #4b3f36;
+  font-family: 'Georgia', serif;
+}
+
+.filters button {
+  background-color: #8c5f45;
+  color: white;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #a87454;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,43 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f0e6; /* light beige */
+  color: #3e2c23; /* dark brown */
+}
+
+a {
+  color: #6b4f3f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #a97b5d; /* warm brown */
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #8c5f45;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  color: #3e2c23;
+}
